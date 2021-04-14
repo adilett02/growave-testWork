@@ -1,224 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
 
-<body>
-    <!-- header -->
-    <header>
-        <div class="container">
-            <div class="header-inner">
-                <div class="logo">
-                    <a href="#">Portfolio</a>
-                </div>
-                <div class="menu">
-                    <ul class="menu-list">
-                        <div class="menu-list__item">
-                            <a class="menu-link active-link" href="#">Home</a>
-                        </div>
-                        <div class="menu-list__item">
-                            <a class="menu-link" href="#">About</a>
-                        </div>
-                        <div class="menu-list__item">
-                            <a class="menu-link" href="#">Skills</a>
-                        </div>
-                        <div class="menu-list__item">
-                            <a class="menu-link" href="#">Portfolio</a>
-                        </div>
-                        <div class="menu-list__item">
-                            <a class="menu-link" href="#">Contact</a>
-                        </div>
-                    </ul>
-                </div>
-            </div>
+  <body>
+    <!-- mobile-menu -->
+    <div class="mobile-menu">
+      <div class="close-menu">
+        <div class="toggle-menu">
+          <img src="images/close.png" alt="" />
         </div>
+      </div>
+      <ul class="menu-list">
+        <div class="menu-list__item">
+          <a class="menu-link active-link" href="#hero">Home</a>
+        </div>
+        <div class="menu-list__item">
+          <a class="menu-link" href="#about">About</a>
+        </div>
+        <div class="menu-list__item">
+          <a class="menu-link" href="#skills">Skills</a>
+        </div>
+        <div class="menu-list__item">
+          <a class="menu-link" href="#portfolio">Portfolio</a>
+        </div>
+        <div class="menu-list__item">
+          <a class="menu-link" href="#footer">Contact</a>
+        </div>
+      </ul>
+    </div>
+
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="toggle-menu">
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="#">Portfolio</a>
+          </div>
+          <div class="menu">
+            <ul class="menu-list">
+              <div class="menu-list__item">
+                <a class="menu-link active-link" href="#hero">Home</a>
+              </div>
+              <div class="menu-list__item">
+                <a class="menu-link" href="#about">About</a>
+              </div>
+              <div class="menu-list__item">
+                <a class="menu-link" href="#skills">Skills</a>
+              </div>
+              <div class="menu-list__item">
+                <a class="menu-link" href="#portfolio">Portfolio</a>
+              </div>
+              <div class="menu-list__item">
+                <a class="menu-link" href="#footer">Contact</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- hero -->
-    <section class="hero">
-        <div class="container">
-            <h1>Hi, It’s Théophile Seyrig</h1>
-            <h3>Designer from Porto, Portugal</h3>
-            <a href="#">Latest works</a>
-        </div>
-
+    <section class="hero" id="hero">
+      <div class="container">
+        <h1>Hi, It’s Théophile Seyrig</h1>
+        <h3>Designer from Porto, Portugal</h3>
+        <a href="#">Latest works</a>
+      </div>
     </section>
 
-
     <!-- about -->
-    <section class="about">
-        <div class="container">
-            <h2>About</h2>
-            <div class="about-text">
-                <p>
-                    Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
-                    penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
-                    Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet
-                    mollis.
-                </p>
-                <p>
-                    Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
-                    rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit.
-                    Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet
-                    tellus, in rutrum augue. Pellentesque.
-                </p>
-            </div>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-text">
+          <p>
+            Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt.
+            Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus
+            consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla
+            egestas odio pharetra egestas aliquet mollis.
+          </p>
+          <p>
+            Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet
+            tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
+            Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas
+            aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- skils -->
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-inner">
-                <div class="skills-img">
-                    <img src="images/skills-img.jpg" alt="">
-                </div>
-                <div class="skills-list">
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            Profile
-                        </div>
-                        <div class="skills-content">
-                            UI / UX Engineer, Front-end Developer
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            UX Research
-                        </div>
-                        <div class="skills-content progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            Tools
-                        </div>
-                        <div class="skills-content">
-                            Paper, Pen, Balsamiq
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            UI Design
-                        </div>
-                        <div class="skills-content progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            Tools
-                        </div>
-                        <div class="skills-content">
-                            Adobe PS, AI, XD, Figma, InVision
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            Front-end Dev
-                        </div>
-                        <div class="skills-content progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
-                    </div>
-                    <div class="skills-list__item">
-                        <div class="skills-name">
-                            Tools
-                        </div>
-                        <div class="skills-content">
-                            HTML, CSS, JS, Bootstrap, React
-                        </div>
-                    </div>
-                </div>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-inner">
+          <div class="skills-img">
+            <img src="images/skills-img.jpg" alt="" />
+          </div>
+          <div class="skills-list">
+            <div class="skills-list__item">
+              <div class="skills-name">Profile</div>
+              <div class="skills-content">UI / UX Engineer, Front-end Developer</div>
             </div>
+            <div class="skills-list__item">
+              <div class="skills-name">UX Research</div>
+              <div class="skills-content progress-container">
+                <div class="progress-bar ux-progress"></div>
+              </div>
+            </div>
+            <div class="skills-list__item">
+              <div class="skills-name">Tools</div>
+              <div class="skills-content">Paper, Pen, Balsamiq</div>
+            </div>
+            <div class="skills-list__item">
+              <div class="skills-name">UI Design</div>
+              <div class="skills-content progress-container">
+                <div class="progress-bar ui-progress"></div>
+              </div>
+            </div>
+            <div class="skills-list__item">
+              <div class="skills-name">Tools</div>
+              <div class="skills-content">Adobe PS, AI, XD, Figma, InVision</div>
+            </div>
+            <div class="skills-list__item">
+              <div class="skills-name">Front-end Dev</div>
+              <div class="skills-content progress-container">
+                <div class="progress-bar front-progress"></div>
+              </div>
+            </div>
+            <div class="skills-list__item">
+              <div class="skills-name">Tools</div>
+              <div class="skills-content">HTML, CSS, JS, Bootstrap, React</div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-
     <!-- portfolio -->
-    <section class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <h4>UX Research</h4>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
 
-            <div class="portfolio-inner">
-                <div class="portfolio-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam
-                    massa semper a tincidunt cursus ultricies lectus eget urna.
-                </div>
-                <div class="portfolio-images">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
+        <div class="portfolio-inner">
+          <div class="portfolio-text">
+            <h4>UX Research</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio
+              cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+            </p>
+            <div class="arrows">
+              <div class="left-arrow">
+                <img src="./images/arrow.png" alt="" />
+              </div>
+              <div class="right-arrow">
+                <img src="./images/arrow.png" alt="" />
+              </div>
             </div>
+          </div>
+          <div class="portfolio-images">
+            <div class="portfolio-list">
+              <a class="portfolio1" href="images/portfolio1.jpg" data-lightbox="roadtrip">
+                <img src="images/portfolio1.jpg" alt="" />
+              </a>
+              <a class="portfolio2" href="images/portfolio2.jpg" data-lightbox="roadtrip">
+                <img src="images/portfolio2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="portfolio-list">
+              <a class="portfolio3" href="images/portfolio3.jpg" data-lightbox="roadtrip">
+                <img src="images/portfolio3.jpg" alt="" />
+              </a>
+              <a class="portfolio4" href="images/portfolio4.jpg" data-lightbox="roadtrip">
+                <img src="images/portfolio4.jpg" alt="" />
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <div class="footer__list">
-                <ul>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Dribbble</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Behance</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">CodePen</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">GitHub</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Medium</a>
-                    </li>
-                </ul>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="footer__list">
+          <ul>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Dribbble</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Behance</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">CodePen</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">GitHub</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Medium</a>
+            </li>
+          </ul>
 
+          <ul>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">LinkedIn</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Facebook</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Instagram</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">Twitter </a>
+            </li>
+          </ul>
 
-                <ul>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">LinkedIn</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Facebook</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Instagram</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">Twitter </a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">seyrig@mailme.com</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a class="footer-link" href="#">+ 55 6645 665544</a>
-                    </li>
-                </ul>
-            </div>
-            <a class="back-to-top" href="#">
-                <img src="images/arrow.png" alt="">
-            </a>
+          <ul>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">seyrig@mailme.com</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer-link" href="#">+ 55 6645 665544</a>
+            </li>
+          </ul>
         </div>
+        <a class="back-to-top" href="#">
+          <img src="images/arrow.png" alt="" />
+        </a>
+      </div>
     </footer>
-
-
     <script src="js/main.min.js"></script>
-</body>
-
+  </body>
 </html>

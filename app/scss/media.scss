@@ -1,0 +1,156 @@
+@media (max-width: 991px) {
+    h2 {
+        text-align: center;
+        line-height: 30px;
+    }
+    //header
+    .menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .header-inner {
+        justify-content: center;
+    }
+
+    //skills
+    .skills-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-img {
+        margin-right: 0;
+    }
+    .skills-list__item {
+        margin-bottom: 12px;
+    }
+
+    //portfolio
+    .portfolio-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .arrows {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    //header
+    .header {
+        padding: 35px 0;
+        &.header-sticky {
+            padding: 20px 0;
+        }
+    }
+    .menu-link {
+        font-size: 16px;
+    }
+    //hero
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 50px;
+        height: auto;
+        text-align: center;
+        a {
+            font-size: 13px;
+        }
+    }
+    h1 {
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 13px;
+    }
+    h3 {
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+
+    //about
+    .about {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about-text {
+        margin-top: 20px;
+        p:first-child {
+            margin-bottom: 20px;
+        }
+    }
+
+    //skills
+    .skills {
+        padding: 25px 0;
+    }
+    .skills-inner {
+        margin-top: 25px;
+    }
+    .skills-img {
+        margin-bottom: 25px;
+        img {
+            width: 224px;
+        }
+    }
+    .skills-name {
+        max-width: 100px;
+    }
+    .skills-list__item:first-child {
+        margin-bottom: 35px;
+    }
+
+    //portfolio
+    .portfolio {
+        padding: 25px 0;
+    }
+    .portfolio-inner {
+        margin-top: 20px;
+    }
+    .portfolio-text {
+        margin-top: 0;
+        h4 {
+            margin-bottom: 15px;
+        }
+    }
+    .portfolio1 {
+        margin-bottom: 10px;
+    }
+    .portfolio2 {
+        margin-bottom: 10px;
+    }
+    .portfolio3 {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .portfolio4 {
+        margin-left: 10px;
+    }
+
+    //footer
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .footer__list {
+        margin-bottom: 0;
+        ul {
+            width: 50%;
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .back-to-top {
+        bottom: 0;
+        right: 15px;
+    }
+}
